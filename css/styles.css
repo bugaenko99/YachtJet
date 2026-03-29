@@ -1,0 +1,209 @@
+font-face {
+    font-family: 'Inter';
+    src: url('../fonts/20709.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* reset */
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 50px;
+    background-color: darksalmon;
+}
+
+.header{
+    margin-left: auto;
+margin-top: 32px;
+margin-right: auto;
+margin-bottom: 155px;
+}
+
+.header_nav{
+    display: flex;
+}
+
+.header_menu{
+    display: flex;
+    margin: 0 auto;
+    gap: 4px;
+}
+
+.header_social{
+    display: flex;
+    
+    gap: 8px;
+}
+.logo_tittle{
+    font-weight: 500;
+        font-size: 80px;
+    line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        max-width: 1001;
+        margin-bottom: 24px;
+    
+        
+}
+.logo_text{
+    font-weight: 300;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+       max-width: 597;
+       margin-bottom: 48px;
+        
+}
+.logo_button{
+    border-radius: 15px;
+        padding-block: 16px;
+        padding-inline: 40px;
+        width: 179px;
+        height: 52px;
+       margin: 0 auto;
+       display: block;
+        
+        
+}
+.about_content{
+    display: flex;
+    margin-top: 230px;
+    margin-right: 299;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.about_info{
+    display: flex;
+    flex-direction: column;
+    max-width: 404px;
+    margin-left:auto;
+  
+}
+.about_tittle{
+    font-weight: 400;
+        font-size: 23px;
+    
+        line-height: 23px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #1b414b;
+        margin-bottom: 20px;
+}
+.about_text{
+    font-weight: 400;
+        font-size: 13px;
+    
+        line-height: 15px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        color: #040306;
+   
+}
+
+.about_main{
+    font-weight: 500;
+        font-size: 48px;
+    
+        line-height: 48px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #1b414b;
+        max-width: 537px;
+       
+}
+
+.yacht_tittle{
+    font-weight: 500;
+        font-size: 48px;
+    
+        line-height: 48px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+        margin-left: auto;
+        margin-top: 150px;
+        margin-right: auto;
+        margin-bottom: 75px;
+        max-width: 714;
+        
+}
+
+.yacht_content{
+    display: flex;
+}
+
+.yacht_card{
+    width: calc((100% - 64px) / 3);
+    margin: 0 auto;
+    border: 1px solid #fbfbfb;
+    border-radius: 24px;
+        
+}
+.yacht_card_one {
+    display: flex;
+    gap: 168px;
+}
+.yacht_card_two {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.yacht_card_three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yacht_card_one_specific{
+    display: flex;
+  
+}
+.yachts_img{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    border-radius: 23px;
+}
+
+.yacht_button{
+border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+   
+    width: 91px;
+ 
+ 
+    margin: 0 auto;
+}
